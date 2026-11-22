@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+
+id = "dense_uv"
+version = "1.1.1"
+name = "Dense UV"
+tagline = "Unwrap and pack mesh UVs with pixel-based padding"
+maintainer = "bumbledar6"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
