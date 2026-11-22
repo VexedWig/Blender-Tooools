@@ -110,7 +110,7 @@ Click a tab at the top of the 3D Viewport to open its panels in the right-hand d
 </details>
 
 ## Universal Export Folder Opener
-Enable the add-on, then export an FBX or glTF file. After a successful export, Windows Explorer selects the file. An FBX batch export opens the containing folder. The opener hooks Python exporters. Blender’s native OBJ, STL, and USD exporters use a different path.
+Not sure why Blender does not do this automatically, but this addon fixes it. Once you have enabled the add-on, then export an FBX or glTF file. After a successfully exporting, Windows Explorer selects the file and an FBX batch export opens the containing folder. The opener hooks Python exporters. Blender’s native OBJ, STL, and USD exporters use a different path.
 
 ![Blender exports Ventilation Elbow.fbx and File Explorer opens with that file selected](showcase/Universal%20Export%20Folder%20Opener/01%20Universal%20Export%20Folder%20Opener.png)
 
