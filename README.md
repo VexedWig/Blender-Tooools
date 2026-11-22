@@ -1,6 +1,6 @@
 # Blender Artist Tools
 
-Blender add-ons by **Aidan Hart** for assisting in building industrial and si-fi game enviornments. Instantly generate scaffolding using a mesh as a guide, expose rebar along concrete fractures, draw hanging cables between surfaces, and route cable bundles between movable sockets. Three workflow tools handle UV packing, sidebar organization, and finding exported files. [Aidan Hart’s portfolio](https://aidan-hart.com)
+Blender add-ons developed by me, **Aidan Hart** for assisting in building industrial and si-fi game environments and speeding up your workflow. Instantly generate highly customizable metal scaffolding , rubbel, and cables. Three tools handle UV packing, sidebar organization, and finding exported files the rest are for geometry generation. [Aidan Hart’s portfolio](https://aidan-hart.com)
 
 ![Monolith, Flange, and Lattice scaffolds generated from the same guide, alongside the Heavy Scaffold panel](showcase/01%20Structural%20styles.png)
 
@@ -116,8 +116,8 @@ Enable the add-on, then export an FBX or glTF file. After a successful export, W
 
 The editable Python for each installer is in [src](src/). Aidan Hart’s original source for Heavy Scaffold, Rubble + Cable, Hanging Cable, and Universal Export Folder Opener is available under **MIT**. If you redistribute copies or substantial portions of that code, include the copyright and permission notice. Dense UV and N-Fix Addon Panel Optimizer use **GPL-3.0-or-later**. Each installer carries its applicable license. [MIT notice](src/heavy_scaffold/LICENSE.txt) · [Dense UV license](src/dense_uv/LICENSE.txt) · [N-Fix Addon Panel Optimizer license](src/npanel_tab_bar/LICENSE.txt)
 
-## A note from Developer
+## Developer Note
 
-All tools here available for free. You’re welcome to use them in personal projects and paid work and edit them however you see fit. If a tool helps you ship something I would appreciate a line in your README, game credits, or some sort of project acknowledgments. **Blender Artist Tools by Aidan Hart** is good.
+All tools here available for free and you’re welcome to use them in personal and commercial projects and edit them however you see fit. If a tool helps you ship something I would appreciate a line in your README, game credits, or some sort of project acknowledgments. **Blender Artist Tools by Aidan Hart** is good.
 
 If you’re sharing an unchanged add-on or the add-on collection, please provide original or offer your copy for free. If you’ve substantially reworked it, added features, and sell your version, please credit the original and tell people what you changed. 
