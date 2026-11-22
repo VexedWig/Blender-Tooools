@@ -118,6 +118,6 @@ The editable Python for each installer is in [src](src/). Aidan Hart’s origina
 
 ## Developer Note
 
-All tools here available for free and you’re welcome to use them in personal and commercial projects and edit them however you see fit. If a tool helps you ship something I would appreciate a line in your README, game credits, or some sort of project acknowledgments. **Blender Artist Tools by Aidan Hart** is good.
+All tools here available for free and you’re welcome to use them in personal and commercial projects and edit them however you see fit, I hope they help you on whatever creative project you choose to use them for. If a tool helps you ship something I would appreciate a line in your README, game credits, or some sort of project acknowledgments. **Blender Artist Tools by Aidan Hart** is good.
 
 If you’re sharing an unchanged add-on or the add-on collection, please provide original or offer your copy for free. If you’ve substantially reworked it, added features, and sell your version, please credit the original and tell people what you changed. 
