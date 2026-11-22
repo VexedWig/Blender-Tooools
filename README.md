@@ -87,8 +87,6 @@ The Radio Tower center console has 1,342 faces and closely spaced support loops 
 
 **How it works.** Hybrid marks seams from the angle between faces and the enabled seam rules. It unwraps the mesh, checks each island for stretch, flipped faces, and overlaps, then runs Smart UV Project on the islands that fail. Equal Texel Density rescales each island by the square root of its 3D area divided by its UV area. Doubling an island’s width and height gives it four times the texture area. The packer fits the resulting islands into the requested texture dimensions with a gap measured in pixels.
 
-**Try the example.** Open the editable scene and select **01 Inherited UVs** in Blender’s scene selector. The duct was unwrapped while straight, then bent and lengthened. **02 Hybrid unwrap** shows the same mesh after one unwrap. Its area-stretch score falls from **2.119 to 0.065** while tile coverage stays near 60%. The other scenes isolate the effects of seam angle, projection method, straightening, density, padding, and stacking. [Editable Blender scene](examples/Dense%20UV%20Showcase.blend)
-
 <details>
 <summary>See the Dense UV panel and settings</summary>
 
