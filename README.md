@@ -60,6 +60,8 @@ Pick **Rubble**, set the pile dimensions and piece counts, enable **Add Rebar**,
 
 Switch to **Cable** and choose **Add Cable Run**. Move the **Start** and **End** empties to position the sockets. Select the generated mesh and open its Geometry Nodes modifier. **Count** controls the number of runs, **Slack** changes the length available for the route, and **Pipe Ratio** changes the share of pipes in the bundle. To make the ends follow scene props, parent each socket empty to its prop.
 
+Currently it is kind of difficult to adjust the shape path of the mesh easily, I am working on fixing this.
+
 ![Cable Generator modifier controls alongside the eight-cable run they produce](showcase/Cable/01%20Cable%20Generator%20overview.png)
 
 <details>
