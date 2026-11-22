@@ -77,7 +77,7 @@ Point and click cable generator. Choose **Draw Cables**, click two surfaces to p
 
 ![Hanging cable comparisons for sag, weight bias, count, thickness, layout, and segments](showcase/Hanging%20Cables/01%20Hanging%20Cable%20Generator.png)
 
-## Dense UV
+## Dense UV -- UV unwrapping and managment tool
 
 Select your mesh objects and open **Dense UV**. Set the target texture width, height, and padding in pixels. Choose **Unwrap & Pack** for a fresh layout or **Pack Only** to rearrange existing islands. **Analyze** reports coverage, texel density, and stretch. For a rectangular atlas, enter both dimensions before packing.
 
@@ -94,7 +94,7 @@ The Radio Tower center console, the example mesh that I unwrapped has 1,342 face
 
 </details>
 
-## N-Fix Addon Panel Optimizer
+## N-Fix Addon Panel Optimizer 
 
 Click a tab at the top of the 3D Viewport to open its panels in the right-hand dock. Right-click a tab to pin it. Use the arrows to unfold or collapse the stack, or press **N** with the pointer over the viewport. If the entire bar is hidden, check **Show Gizmos** in the viewport and **Show Add-on Stack** in the add-on preferences.
 
