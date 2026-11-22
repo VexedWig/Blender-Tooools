@@ -1,10 +1,10 @@
 # Blender Artist Tools
 
-Blender add-ons by **Aidan Hart** for building game environments. Generate scaffold from a guide mesh, expose rebar along concrete fractures, draw hanging cables between surfaces, and route cable bundles between movable sockets. Three workflow tools handle UV packing, sidebar organization, and finding exported files. [Aidan Hart’s portfolio](https://aidan-hart.com)
+Blender add-ons by **Aidan Hart** for assisting in building industrial and si-fi game enviornments. Instantly generate scaffolding using a mesh as a guide, expose rebar along concrete fractures, draw hanging cables between surfaces, and route cable bundles between movable sockets. Three workflow tools handle UV packing, sidebar organization, and finding exported files. [Aidan Hart’s portfolio](https://aidan-hart.com)
 
 ![Monolith, Flange, and Lattice scaffolds generated from the same guide, alongside the Heavy Scaffold panel](showcase/01%20Structural%20styles.png)
 
-## Install
+## How to install
 
 1. Choose a ZIP from the table below. Each ZIP installs independently. Rubble and the floor cable tool share one ZIP.
 2. In Blender, open **Edit → Preferences → Add-ons**. Open the upper-right menu, choose **Install from Disk**, and select the ZIP directly.
@@ -81,7 +81,7 @@ Point and click cable generator. Choose **Draw Cables**, click two surfaces to p
 
 Select your mesh objects and open **Dense UV**. Set the target texture width, height, and padding in pixels. Choose **Unwrap & Pack** for a fresh layout or **Pack Only** to rearrange existing islands. **Analyze** reports coverage, texel density, and stretch. For a rectangular atlas, enter both dimensions before packing.
 
-The Radio Tower center console has 1,342 faces and closely spaced support loops around its recessed openings. With no marked seams or sharp edges, the same mesh took one click with Dense UV and six clicks in the manual Smart UV workflow.
+The Radio Tower center console, the example mesh that I unwrapped has 1,342 faces and closely spaced support loops around its recessed openings. With no marked seams or sharp edges, the same mesh took one click with Dense UV and six clicks in the manual Smart UV workflow.
 
 ![The radio tower console and its UV layouts after one Dense UV click and six manual workflow clicks](showcase/Dense%20UV/02%20Console%20unwrap%20workflow.png)
 
@@ -108,7 +108,6 @@ Click a tab at the top of the 3D Viewport to open its panels in the right-hand d
 </details>
 
 ## Universal Export Folder Opener
-
 Enable the add-on, then export an FBX or glTF file. After a successful export, Windows Explorer selects the file. An FBX batch export opens the containing folder. The opener hooks Python exporters. Blender’s native OBJ, STL, and USD exporters use a different path.
 
 ![Blender exports Ventilation Elbow.fbx and File Explorer opens with that file selected](showcase/Universal%20Export%20Folder%20Opener/01%20Universal%20Export%20Folder%20Opener.png)
@@ -117,8 +116,8 @@ Enable the add-on, then export an FBX or glTF file. After a successful export, W
 
 The editable Python for each installer is in [src](src/). Aidan Hart’s original source for Heavy Scaffold, Rubble + Cable, Hanging Cable, and Universal Export Folder Opener is available under **MIT**. If you redistribute copies or substantial portions of that code, include the copyright and permission notice. Dense UV and N-Fix Addon Panel Optimizer use **GPL-3.0-or-later**. Each installer carries its applicable license. [MIT notice](src/heavy_scaffold/LICENSE.txt) · [Dense UV license](src/dense_uv/LICENSE.txt) · [N-Fix Addon Panel Optimizer license](src/npanel_tab_bar/LICENSE.txt)
 
-## A note from Aidan
+## A note from Developer
 
-I make these tools available for free. You’re welcome to use them in personal projects and paid work, edit the code, and build on it. If a tool helps you ship something, I’d appreciate a line in your README, game credits, or project acknowledgments. **Blender Artist Tools by Aidan Hart** is plenty.
+All tools here available for free. You’re welcome to use them in personal projects and paid work and edit them however you see fit. If a tool helps you ship something I would appreciate a line in your README, game credits, or some sort of project acknowledgments. **Blender Artist Tools by Aidan Hart** is good.
 
-If you’re sharing an unchanged add-on, please point people to the free original or offer your copy for free. If you’ve substantially reworked it and sell your version, please credit the original and tell people what you changed. These are requests to the community. The licenses above govern redistribution, including paid copies. [Blender licensing FAQ](https://www.blender.org/support/faq/)
+If you’re sharing an unchanged add-on or the add-on collection, please provide original or offer your copy for free. If you’ve substantially reworked it, added features, and sell your version, please credit the original and tell people what you changed. 
